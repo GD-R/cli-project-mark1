@@ -4,9 +4,9 @@ let score = 0;
 let user = read_input.question("What is your name: ");
 console.log("Welcome to the Quiz - Lets See How well you know Gandharva R? " );
 
-let questions = ["Where do i live? ", "Where do i work? ", "What is my favriot food? ", "What is my favriot color? "];
+let questions = ["Where do i live? ", "Where do i work? ", "What is my favriot food? ", "What is my favriot color? ", "My favriot game?"];
 
-let answers = ["Bangalore", "CGI", "Dose", "Black"];
+let answers = ["Bangalore", "CGI", "Dose", "Black", "Cricket"];
 
 function play (question,answer) {
   let ans = read_input.question(question);
